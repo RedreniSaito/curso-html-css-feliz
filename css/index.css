@@ -75,3 +75,13 @@ body {
     font-size: 30px;
     line-height: 30px;
 }
+
+#botao_cv {
+    margin-top: 338px;
+    margin-left: 181px;
+}
+
+#botao_contato {
+    margin-top: 338px;
+    margin-left: 112px;
+}
