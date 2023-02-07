@@ -30,7 +30,7 @@ a:before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #F7B18C;
     box-shadow: 5px 5px 0 #000;
@@ -39,10 +39,39 @@ a:before {
     transition: transform 100ms linear;
 } 
 
-#button:hover {
+.button:hover {
     background-color: #000;
     color: #FFF8CA;
     transition: 0.5s;
     opacity: 0.7;
     transform: scale(1.03);
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-dia-internacional-do-gato-desenhado-a-mao-com-gatos_23-2149454620.jpg);
+    background-size: cover;
+}
+
+#titulo {
+    display: inline-block;
+    color: #F7B18C;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0 #000;
+    width: 627px;
+    height: 110px;
+    padding: 40px 0px;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    margin-left: 91px;
+    margin-top: 116px;
+    text-align: center;
+    position: absolute;
+    text-shadow: 4px 4px 0px #000;
+}
+
+#subtitulo {
+    color: #FFF;
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    line-height: 30px;
 }
